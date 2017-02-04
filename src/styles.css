@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+/* Angular2 material */
+@import '~@angular/material/core/theming/prebuilt/indigo-pink.css';
+
+/* bootstrap */
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
+
+/* Material Design fonts */
+@import "//fonts.googleapis.com/css?family=Roboto:300,400,500,700";
+@import "//fonts.googleapis.com/icon?family=Material+Icons";

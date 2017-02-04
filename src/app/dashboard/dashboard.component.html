@@ -1,0 +1,11 @@
+<!--dashboard header-->
+<mb-header></mb-header>
+<!--<hc-header></hc-header>-->
+
+<div *ngIf="timedOut" class="alert-danger idle-message">You will time out in {{count}} seconds!</div>
+<!--dashboard navbar-->
+<mb-navbar></mb-navbar>
+
+
+<!--dashboard routing-->
+<router-outlet></router-outlet>
